@@ -1,0 +1,54 @@
+[
+  {
+    "scheme_id": "KSP-01",
+    "name": "Kisan Subsidized Seed Program",
+    "category": "subsidy",
+    "description": "Provides certified seeds to smallholder farmers at 50% subsidized cost for wheat, rice, and cotton.",
+    "eligibility": {
+      "max_landholding_acres": 12.5,
+      "crops": ["wheat", "rice", "cotton"],
+      "farmer_type": ["smallholder", "tenant", "owner"]
+    },
+    "documents_required": ["CNIC / National ID", "Land record (Fard) or tenancy agreement", "Bank account details"],
+    "benefit": "50% subsidy on certified seed purchase, capped at PKR 15,000 per season."
+  },
+  {
+    "scheme_id": "GTL-02",
+    "name": "Green Tractor & Machinery Loan Scheme",
+    "category": "loan",
+    "description": "Low-interest loans for purchase of tractors, tube wells, and laser land levelers.",
+    "eligibility": {
+      "max_landholding_acres": 25,
+      "crops": ["any"],
+      "farmer_type": ["owner"]
+    },
+    "documents_required": ["CNIC / National ID", "Proof of land ownership", "Income statement"],
+    "benefit": "Loan at 5% markup vs market rate of 18-22%, repayable over 5 years."
+  },
+  {
+    "scheme_id": "WCI-03",
+    "name": "Weather-Indexed Crop Insurance",
+    "category": "insurance",
+    "description": "Insurance payout triggered automatically by weather-station data (drought/flood) without requiring a damage survey.",
+    "eligibility": {
+      "max_landholding_acres": 50,
+      "crops": ["wheat", "rice", "cotton", "sugarcane"],
+      "farmer_type": ["smallholder", "tenant", "owner"]
+    },
+    "documents_required": ["CNIC / National ID", "Land record (Fard) or tenancy agreement"],
+    "benefit": "Automatic payout up to PKR 40,000/acre on verified drought or flood events."
+  },
+  {
+    "scheme_id": "WUE-04",
+    "name": "Water Use Efficiency (Drip Irrigation) Grant",
+    "category": "grant",
+    "description": "One-time grant covering 60% of drip/sprinkler irrigation installation costs.",
+    "eligibility": {
+      "max_landholding_acres": 15,
+      "crops": ["any"],
+      "farmer_type": ["smallholder", "owner"]
+    },
+    "documents_required": ["CNIC / National ID", "Land record (Fard)", "Water source verification"],
+    "benefit": "60% cost coverage, capped at PKR 120,000 per farm."
+  }
+]

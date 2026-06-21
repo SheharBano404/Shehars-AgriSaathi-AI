@@ -1,0 +1,24 @@
+[project]
+name = "agrisaathi-ai"
+version = "1.0.0"
+description = "AgriSaathi AI -- a multi-agent farming advisory assistant built with Google ADK and MCP servers"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "google-adk>=2.3.0",
+    "mcp>=1.28.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[project.scripts]
+agrisaathi = "agrisaathi.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"

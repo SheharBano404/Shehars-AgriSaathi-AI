@@ -1,0 +1,73 @@
+{
+  "wheat": [
+    {
+      "disease": "Yellow Rust (Stripe Rust)",
+      "symptoms": ["yellow stripes", "yellow streaks", "powdery yellow", "orange yellow pustules", "stripes on leaves"],
+      "severity": "high",
+      "advice": "Yellow rust spreads fast in cool, humid weather. Remove and destroy heavily infected leaves, improve field drainage, and use a rust-resistant wheat variety next season. Consult your local agriculture extension office before applying any fungicide, and always follow the dose printed on the product label.",
+      "recommended_action": "Contact local agriculture extension officer within 48 hours; avoid excess nitrogen fertilizer until resolved."
+    },
+    {
+      "disease": "Powdery Mildew",
+      "symptoms": ["white powder", "white patches", "powdery coating", "white spots on leaves"],
+      "severity": "medium",
+      "advice": "Powdery mildew thrives in dense, poorly-ventilated crops. Reduce plant density next season, avoid overhead irrigation late in the day, and remove infected debris after harvest.",
+      "recommended_action": "Monitor twice weekly; escalate to extension officer if spread exceeds 25% of the field."
+    },
+    {
+      "disease": "Aphid Infestation",
+      "symptoms": ["small insects", "sticky leaves", "curling leaves", "tiny green or black bugs"],
+      "severity": "medium",
+      "advice": "Aphids can be reduced using ladybird beetles (a natural predator) and by avoiding excess nitrogen. Sticky yellow traps near field edges help monitor populations.",
+      "recommended_action": "Introduce natural predators; re-check population after 7 days."
+    }
+  ],
+  "rice": [
+    {
+      "disease": "Rice Blast",
+      "symptoms": ["diamond shaped lesions", "grey spots with brown border", "lesions on leaves", "spindle shaped spots"],
+      "severity": "high",
+      "advice": "Rice blast spreads quickly under high humidity and dense planting. Improve field drainage, avoid excess nitrogen, and use certified disease-free seed next season.",
+      "recommended_action": "Contact local agriculture extension officer; consider resistant variety for next sowing."
+    },
+    {
+      "disease": "Bacterial Leaf Blight",
+      "symptoms": ["water soaked streaks", "yellowing leaf tips", "wavy lesions", "leaf tips drying"],
+      "severity": "high",
+      "advice": "Avoid overhead irrigation, drain standing water periodically, and balance nitrogen application. Remove and burn severely infected plants to limit spread.",
+      "recommended_action": "Escalate to extension officer if more than 10% of field is affected."
+    }
+  ],
+  "cotton": [
+    {
+      "disease": "Cotton Leaf Curl Virus",
+      "symptoms": ["leaf curling", "thickened veins", "upward curling leaves", "stunted growth"],
+      "severity": "high",
+      "advice": "Spread mainly by whiteflies. Remove and destroy infected plants early, control whitefly populations with yellow sticky traps, and use virus-resistant cotton varieties next season.",
+      "recommended_action": "Contact extension officer; monitor whitefly population weekly."
+    },
+    {
+      "disease": "Pink Bollworm",
+      "symptoms": ["holes in boll", "rosette flowers", "damaged bolls", "larvae inside boll"],
+      "severity": "high",
+      "advice": "Use pheromone traps to monitor adult moth activity, practice crop rotation, and remove crop residue after harvest to break the pest life cycle.",
+      "recommended_action": "Set pheromone traps; report high trap counts to extension officer."
+    }
+  ],
+  "tomato": [
+    {
+      "disease": "Early Blight",
+      "symptoms": ["brown spots with rings", "target shaped spots", "yellowing around spots", "lower leaves dying"],
+      "severity": "medium",
+      "advice": "Remove infected lower leaves, avoid wetting foliage during irrigation, and rotate crops away from tomato/potato family for at least one season.",
+      "recommended_action": "Monitor weekly; improve airflow by pruning lower leaves."
+    },
+    {
+      "disease": "Fruit Borer",
+      "symptoms": ["holes in fruit", "boring holes", "caterpillar inside fruit", "damaged fruit"],
+      "severity": "medium",
+      "advice": "Use pheromone traps and encourage natural predators like parasitic wasps. Remove and destroy damaged fruit promptly to prevent the pest completing its life cycle.",
+      "recommended_action": "Set up traps; hand-pick visibly infested fruit."
+    }
+  ]
+}

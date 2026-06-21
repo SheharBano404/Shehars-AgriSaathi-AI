@@ -1,0 +1,25 @@
+# Python Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment Variables (IMPORTANT: Never push your actual keys!)
+.env
+
+agrisaathi_agent/.adk/
+*.db
+
+# Python Bytecode
+__pycache__/
+*.pyc
+
+# Logs and temporary files
+logs/
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
